@@ -1,0 +1,10 @@
+{
+  "title": "EpiScope: NL-to-FOL Epidemic Scope Paper Gen",
+  "summary": "Generated a 10-page publication-ready LaTeX paper on EpiScope, a neuro-symbolic NL-to-FOL translation system using epidemic spreading dynamics on dependency graphs for quantifier scope assignment. Sections written: Introduction, Related Work (NL-to-FOL Translation; Quantifier Scope in Linguistic Formalisms; Epidemic Spreading on Graphs), The EpiScope Model (Dependency Graph Preliminaries; Epidemic Scope Propagation gamma=0; Contested Tokens and Dual-Reading Output; Transmission Rate Learning), The Full EpiScope Pipeline (Architecture Overview; Predicate Extraction Protocol; Baseline Methods), Experiments (FOLIO/Kamath/FraCaS datasets; Metrics; Main Results Table; Learned Beta Parameters Table; Ambiguity Detection; FraCaS held-out), Discussion (Interpreting Parameters; Neural Baseline Comparison; Ambiguity as First-Class Output; Limitations), Conclusion. No figures were available so zero includegraphics commands appear (verified). Bibliography has 13 BibTeX entries for all cited references: Olausson2023, Thatikonda2024, Han2022, Pan2023, Yang2024, Kamath2024, Ji2019, Copestake2005, Cooper1996, Kermack1927, Newman2005, Liu2024, Honnibal2020. Five entries fetched via Semantic Scholar API; eight hand-authored from verified paper metadata. Compiled successfully with pdflatex + bibtex.original + pdflatex x2 (four-pass). All 10 pages visually reviewed: clean layout, tables render correctly, all citations resolve with no ?? symbols, math renders correctly throughout.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": []
+  }
+}

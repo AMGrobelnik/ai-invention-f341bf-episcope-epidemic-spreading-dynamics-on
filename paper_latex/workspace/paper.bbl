@@ -1,0 +1,106 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cooper et~al.(1996)Cooper, Crouch, van Eijck, Fox, van Genabith,
+  Jaspars, Kamp, Milward, Pinkal, Poesio, and Pulman]{Cooper1996}
+Robin Cooper, Dick Crouch, Jan van Eijck, Chris Fox, Josef van Genabith, Jan
+  Jaspars, Hans Kamp, David Milward, Manfred Pinkal, Massimo Poesio, and Steve
+  Pulman.
+\newblock Using the framework.
+\newblock In \emph{{FraCaS} Project Deliverable D-16}, 1996.
+
+\bibitem[Copestake et~al.(2005)Copestake, Flickinger, Pollard, and
+  Sag]{Copestake2005}
+Ann Copestake, Dan Flickinger, Carl Pollard, and Ivan~A. Sag.
+\newblock Minimal recursion semantics: An introduction.
+\newblock \emph{Research on Language and Computation}, 3:\penalty0 281--332,
+  2005.
+
+\bibitem[Han et~al.(2022)Han, Schoelkopf, Zhao, Qi, Riddell, Benson, Sun,
+  Zubova, Qiao, Burtell, Peng, Fan, Liu, Wong, Sailor, Ni, Nan, Kasai, Yu,
+  Zhang, Joty, Fabbri, Kryscinski, Lin, Xiong, and Radev]{Han2022}
+Simeng Han, Hailey Schoelkopf, Yilun Zhao, Zhenting Qi, Martin Riddell, Luke
+  Benson, Lucy Sun, Ekaterina Zubova, Yujie Qiao, Matthew Burtell, David Peng,
+  Jonathan Fan, Yixin Liu, Brian Wong, Malcolm Sailor, Ansong Ni, Linyong Nan,
+  Jungo Kasai, Tao Yu, Rui Zhang, Shafiq Joty, Alexander Fabbri, Wojciech
+  Kryscinski, Xi~Victoria Lin, Caiming Xiong, and Dragomir Radev.
+\newblock {FOLIO}: Natural language reasoning with first-order logic.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, 2022.
+\newblock \doi{10.48550/arXiv.2209.00840}.
+
+\bibitem[Honnibal et~al.(2020)Honnibal, Montani, Landeghem, and
+  Boyd]{Honnibal2020}
+Matthew Honnibal, Ines Montani, Sofie~Van Landeghem, and Adriane Boyd.
+\newblock {spaCy}: Industrial-strength natural language processing in {Python},
+  2020.
+
+\bibitem[Ji et~al.(2019)Ji, Wu, and Lan]{Ji2019}
+Tao Ji, Yuanbin Wu, and Man Lan.
+\newblock Graph-based dependency parsing with graph neural networks.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, pages 2475--2485, 2019.
+\newblock \doi{10.18653/v1/P19-1237}.
+
+\bibitem[Kamath et~al.(2024)Kamath, Schuster, Vajjala, and Reddy]{Kamath2024}
+Gaurav Kamath, Sebastian Schuster, Sowmya Vajjala, and Siva Reddy.
+\newblock Scope ambiguities in large language models.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  12:\penalty0 738--754, 2024.
+
+\bibitem[Kermack and McKendrick(1927)]{Kermack1927}
+W.~O. Kermack and A.~G. McKendrick.
+\newblock A contribution to the mathematical theory of epidemics.
+\newblock \emph{Proceedings of the Royal Society A: Mathematical, Physical and
+  Engineering Sciences}, 115:\penalty0 700--721, 1927.
+\newblock \doi{10.1098/rspa.1927.0118}.
+
+\bibitem[Liu et~al.(2024)Liu, Wan, Prakash, Li, and Jin]{Liu2024}
+Zewen Liu, Guancheng Wan, B.~Aditya Prakash, Michael~Y. Li, and Wei Jin.
+\newblock A review of graph neural networks in epidemic modeling.
+\newblock In \emph{Proceedings of the 30th ACM SIGKDD Conference on Knowledge
+  Discovery and Data Mining}, 2024.
+
+\bibitem[Newman(2005)]{Newman2005}
+M.~E.~J. Newman.
+\newblock Threshold effects for two pathogens spreading on a network.
+\newblock \emph{Physical Review E}, 71:\penalty0 066128, 2005.
+\newblock \doi{10.1103/PhysRevE.71.066128}.
+
+\bibitem[Olausson et~al.(2023)Olausson, Gu, Lipkin, Zhang, Solar-Lezama,
+  Tenenbaum, and Levy]{Olausson2023}
+Theo~X. Olausson, Alex Gu, Benjamin Lipkin, Cedegao~E. Zhang, Armando
+  Solar-Lezama, Josh Tenenbaum, and Roger Levy.
+\newblock {LINC}: A neurosymbolic approach for logical reasoning by combining
+  language models with first-order logic provers.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 5153--5176, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.313}.
+
+\bibitem[Pan et~al.(2023)Pan, Albalak, Wang, and Wang]{Pan2023}
+Liangming Pan, Alon Albalak, Xinyi Wang, and William~Yang Wang.
+\newblock {Logic-LM}: Empowering large language models with symbolic solvers
+  for faithful logical reasoning.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, 2023.
+\newblock \doi{10.48550/arXiv.2305.12295}.
+
+\bibitem[Thatikonda et~al.(2024)Thatikonda, Han, Buntine, and
+  Shareghi]{Thatikonda2024}
+Ramya~Keerthy Thatikonda, Jiuzhou Han, Wray Buntine, and Ehsan Shareghi.
+\newblock Strategies for improving {NL}-to-{FOL} translation with {LLM}s: Data
+  generation, incremental fine-tuning, and verification.
+\newblock \emph{ArXiv}, abs/2409.16461, 2024.
+\newblock \doi{10.48550/arXiv.2409.16461}.
+
+\bibitem[Yang et~al.(2024)Yang, Groschwitz, Koller, and Bos]{Yang2024}
+Xupeng Yang, Jonas Groschwitz, Alexander Koller, and Johan Bos.
+\newblock Scope-enhanced compositional semantic parsing for {DRT}.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 19602--19616, 2024.
+
+\end{thebibliography}
