@@ -186,6 +186,16 @@ classified as \emph{scope-ambiguous} if the proportion of contested tokens among
 threshold $\tau$; for such sentences, EpiScope outputs two candidate FOL formulas---one per ordering of the competing
 quantifiers---rather than committing to a single reading.
 
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{figures/fig2_v0.jpg}
+  \caption{Visualization of competing epidemic spreading fronts for the sentence ``Every professor who advises some student wins a prize.''
+  The `every' front (orange) propagates freely across nsubj and dobj edges but is blocked at the relcl boundary (dashed edge,
+  $\beta_{\text{relcl}} = 0.06$). The `some' front (purple) is contained within the relative clause. Token `advises' is contested
+  (both fronts arrive with nearly equal intensity), triggering dual-reading output.}
+  \label{fig:epidemic_dynamics}
+\end{figure*}
+
 \subsection{Transmission Rate Learning}
 
 The 30 transmission rates $\{\beta_e\}_{e \in \mathcal{E}}$ are initialized as $\beta_e = 0.5$ for all $e$ except
@@ -214,6 +224,15 @@ EpiScope decomposes NL-to-FOL translation into two independent modules:
     valid FOL formula with correct quantifier nesting and variable binding. For contested sentences, two formulas are
     assembled.
 \end{enumerate}
+
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{figures/fig3_v0.jpg}
+  \caption{Detailed view of the neuro-symbolic interface. The LLM returns a structured JSON with predicate names, arities, and entity
+  variables but with scope left as null. The epidemic scope model fills in the quantifier nesting and variable binding to
+  produce the final FOL formula. For contested sentences, two formulas are assembled simultaneously.}
+  \label{fig:system_diagram}
+\end{figure*}
 
 \subsection{Predicate Extraction Protocol}
 
@@ -298,6 +317,15 @@ EpiScope achieves 71.2\%, compared to 57.8\% (B1) and 60.3\% (B3).
   \end{tabular}
 \end{table}
 
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{figures/fig4_v0.jpg}
+  \caption{FOL exact-match accuracy and z3 logical equivalence accuracy on the FOLIO test set for all systems. EpiScope outperforms
+  both the direct-LLM baseline (B1) and GNN typed-message-passing baseline (B3) by ${\geq}10$ percentage points exact-match
+  ($p < 0.001$, bootstrap resampling). Error bars show 95\% confidence intervals from bootstrap resampling.}
+  \label{fig:main_results}
+\end{figure*}
+
 The uniform-$\beta$ ablation (B2) achieves 54.3\% exact-match, confirming that edge-type differentiation contributes
 an additional 8.1 percentage points beyond the epidemic dynamics alone. The gap between B2 and B3 (54.3\% vs.\ 51.8\%)
 is modest but consistent, suggesting that the iterative convergence dynamics of the epidemic model provide marginal
@@ -337,6 +365,16 @@ relations) and cross-clause scope (which is blocked by sentential complements).
     \bottomrule
   \end{tabular}
 \end{table}
+
+\begin{figure*}[!t]
+  \centering
+  \includegraphics[width=\textwidth,height=0.45\textheight,keepaspectratio]{figures/fig5_v0.jpg}
+  \caption{Learned transmission rates for the 12 most frequent UD dependency relation types after L-BFGS-B optimization on the FOLIO
+  training set. Core grammatical relations (nsubj, dobj) learn high $\beta$; modification edges (amod, advmod) learn intermediate
+  $\beta$; clause-boundary edges (relcl, advcl, ccomp) converge to near-zero, confirming the scope-island hypothesis. Dashed
+  horizontal lines mark the high-$\beta$ (0.70) and low-$\beta$ (0.10) thresholds.}
+  \label{fig:beta_params}
+\end{figure*}
 
 \subsection{Ambiguity Detection on Kamath et al.}
 
