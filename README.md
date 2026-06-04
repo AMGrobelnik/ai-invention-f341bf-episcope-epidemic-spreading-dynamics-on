@@ -4,7 +4,7 @@ This repository contains artifacts from an AI-generated research project.
 
 ## Research Paper
 
-[![Download PDF](https://img.shields.io/badge/Download-PDF-red)](https://github.com/AMGrobelnik/ai-invention-f341bf-episcope-epidemic-spreading-dynamics-on/blob/main/paper.pdf) [![LaTeX Source](https://img.shields.io/badge/LaTeX-Source-orange)](https://github.com/AMGrobelnik/ai-invention-f341bf-episcope-epidemic-spreading-dynamics-on/tree/main/paper_latex)
+[![Download PDF](https://img.shields.io/badge/Download-PDF-red)](https://cdn.jsdelivr.net/gh/AMGrobelnik/ai-invention-f341bf-episcope-epidemic-spreading-dynamics-on@main/paper.pdf) [![LaTeX Source](https://img.shields.io/badge/LaTeX-Source-orange)](https://github.com/AMGrobelnik/ai-invention-f341bf-episcope-epidemic-spreading-dynamics-on/tree/main/paper_latex)
 
 ## Artifacts
 
